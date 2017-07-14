@@ -1,11 +1,11 @@
-from setuptools import setup
+from distutils.core import setup
 
-setup(name='liusha-integration-sdk-tempalte',
+setup(name='sdk',
       version='0.1',
       description='The best integration sdk template',
       url='https://github.com/liushh/integration-sdk-template.git',
       author='Liusha',
       author_email='hlswh1021@gmail.com',
       license='MIT',
-      packages=['liusha-integration-sdk-template'],
+      packages=['sdk'],
       zip_safe=False)

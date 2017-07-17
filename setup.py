@@ -1,4 +1,5 @@
-from distutils.core import setup
+from setuptools import setup
+
 
 setup(name='sdk',
       version='0.1',
@@ -8,4 +9,7 @@ setup(name='sdk',
       author_email='hlswh1021@gmail.com',
       license='MIT',
       packages=['sdk'],
+      install_requires=[
+          'PyJWT',
+      ],
       zip_safe=False)
